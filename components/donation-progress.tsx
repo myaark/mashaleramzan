@@ -4,8 +4,8 @@ import { Progress } from '@/components/ui/progress'
 import { Card } from '@/components/ui/card'
 
 export default function DonationProgress() {
-  const currentDonation = 45000
-  const goalDonation = 100000
+  const currentDonation = 450000
+  const goalDonation = 1200000
   const percentage = (currentDonation / goalDonation) * 100
 
   return (
@@ -18,29 +18,29 @@ export default function DonationProgress() {
           </div>
 
           <div className="space-y-4">
-            <Progress 
-              value={percentage} 
+            <Progress
+              value={percentage}
               className="h-6 bg-blue-100 rounded-full"
             />
-            
+
             <div className="grid grid-cols-3 gap-4 pt-4">
               <div className="text-center">
                 <p className="text-3xl md:text-4xl font-bold text-primary">
-                  ${currentDonation.toLocaleString()}
+                  {currentDonation.toLocaleString()} PKR
                 </p>
                 <p className="text-sm text-gray-600 mt-1">Raised</p>
               </div>
-              
+
               <div className="text-center">
                 <p className="text-3xl md:text-4xl font-bold text-accent">
                   {percentage.toFixed(0)}%
                 </p>
                 <p className="text-sm text-gray-600 mt-1">Complete</p>
               </div>
-              
+
               <div className="text-center">
                 <p className="text-3xl md:text-4xl font-bold text-gray-900">
-                  ${goalDonation.toLocaleString()}
+                  {goalDonation.toLocaleString()}PKR
                 </p>
                 <p className="text-sm text-gray-600 mt-1">Goal</p>
               </div>
