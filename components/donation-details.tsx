@@ -33,23 +33,23 @@ export default function DonationDetails() {
     <section className="w-full bg-gradient-to-b from-yellow-50 to-white px-6 py-16">
       <div className="max-w-6xl mx-auto">
         {/* Bank Details Card */}
-        <div className="mb-12 bg-white rounded-lg p-8 border-2 border-primary/20 shadow-lg hover:shadow-xl transition-shadow">
+        <div className="mb-12 bg-gradient-to-r from-blue-50 to-yellow-50 rounded-lg p-8 border-2 border-accent/30 shadow-lg hover:shadow-xl transition-shadow">
           <div className="flex items-center gap-3 mb-6">
             <Bank className="w-8 h-8 text-primary" />
             <h3 className="text-2xl font-bold text-gray-900">Donate via Bank Transfer</h3>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
-            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6 border border-primary/20">
-              <p className="text-sm text-gray-600 font-semibold mb-2">BANK NAME</p>
-              <p className="text-xl font-bold text-gray-900">Al-Baraka Bank</p>
+            <div className="bg-gradient-to-br from-blue-100 to-blue-200 rounded-lg p-6 border-2 border-primary/30 shadow-md">
+              <p className="text-sm text-gray-700 font-semibold mb-2">BANK NAME</p>
+              <p className="text-xl font-bold text-gray-900">Habib Bank Limited (HBL)</p>
             </div>
-            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6 border border-primary/20">
-              <p className="text-sm text-gray-600 font-semibold mb-2">ACCOUNT NAME</p>
-              <p className="text-xl font-bold text-gray-900">Mashal-e-Ramzan</p>
+            <div className="bg-gradient-to-br from-yellow-100 to-yellow-200 rounded-lg p-6 border-2 border-accent/40 shadow-md">
+              <p className="text-sm text-gray-700 font-semibold mb-2">ACCOUNT NAME</p>
+              <p className="text-xl font-bold text-gray-900">Muhammad Yaar Khan</p>
             </div>
-            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6 border border-primary/20">
-              <p className="text-sm text-gray-600 font-semibold mb-2">ACCOUNT NUMBER</p>
-              <p className="text-xl font-bold text-gray-900 font-mono">1234567890123</p>
+            <div className="bg-gradient-to-br from-blue-100 to-yellow-100 rounded-lg p-6 border-2 border-primary/30 shadow-md">
+              <p className="text-sm text-gray-700 font-semibold mb-2">ACCOUNT NUMBER</p>
+              <p className="text-xl font-bold text-gray-900 font-mono">PK74HABB0013537902173003</p>
             </div>
           </div>
           <p className="mt-4 text-sm text-gray-600 text-center">Every donation is secure and transparent</p>
