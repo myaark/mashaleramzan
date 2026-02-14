@@ -93,19 +93,14 @@ export default function DonationDetails() {
 
             {/* Bank Transfer QR Code */}
             <div className="flex flex-col items-center">
-              <a
-                href="https://bank-details-link" // Replace with the actual link to the bank account
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-center"
-              >
-                <img
-                  src="../public/hblqr.jpeg" // Replace with the actual path to your bank transfer QR code
-                  alt="Bank QR Code"
-                  className="w-32 h-32 object-contain"
-                />
-                <span className="mt-2 text-gray-700">Bank Transfer</span>
-              </a>
+
+              <img
+                src="../public/hblqr.jpeg"
+                alt="Bank QR Code"
+                className="w-32 h-32 object-contain"
+              />
+              <span className="mt-2 text-gray-700">Bank Transfer</span>
+
             </div>
           </div>
         </div>
