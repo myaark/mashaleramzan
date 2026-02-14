@@ -68,7 +68,7 @@ export default function DonationDetails() {
             </li>
             <li className="flex items-start gap-3">
               <span className="text-primary font-bold mt-1">✓</span>
-              <span><strong>20000</strong> provides Iftar meals for 70 - 80 Individuals</span>
+              <span><strong>20000 PKR</strong> provides Iftar meals for 70 - 80 Individuals</span>
             </li>
           </ul>
         </div>
