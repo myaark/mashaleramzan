@@ -76,7 +76,7 @@ export default function DonationDetails() {
             </ul>
 
             {/* QR Codes Section */}
-            <div className="flex gap-6 justify-center lg:w-1/2">
+            <div className="flex gap-6 justify-center lg:w">
               {/* Instagram QR Code */}
               <div className="flex flex-col items-center">
                 <a
