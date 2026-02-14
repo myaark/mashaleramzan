@@ -100,7 +100,7 @@ export default function DonationDetails() {
                 className="text-center"
               >
                 <img
-                  src="/path/to/bank-qr.png" // Replace with the actual path to your bank transfer QR code
+                  src="public/hblqr.jpeg" // Replace with the actual path to your bank transfer QR code
                   alt="Bank QR Code"
                   className="w-32 h-32 object-contain"
                 />
