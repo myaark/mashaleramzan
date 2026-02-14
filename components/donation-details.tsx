@@ -72,6 +72,42 @@ export default function DonationDetails() {
               <span><strong>20000 PKR</strong> Iftar Dastarkhwaan</span>
             </li>
           </ul>
+          {/* QR Codes Section */}
+          <div className="mt-8 flex gap-6 justify-center">
+            {/* Instagram QR Code */}
+            <div className="flex flex-col items-center">
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-center"
+              >
+                <img
+                  src="/path/to/instagram-qr.png" // Replace with the actual path to your Instagram QR code
+                  alt="Instagram QR Code"
+                  className="w-32 h-32 object-contain"
+                />
+                <span className="mt-2 text-gray-700">Instagram</span>
+              </a>
+            </div>
+
+            {/* Bank Transfer QR Code */}
+            <div className="flex flex-col items-center">
+              <a
+                href="https://bank-details-link" // Replace with the actual link to the bank account
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-center"
+              >
+                <img
+                  src="/path/to/bank-qr.png" // Replace with the actual path to your bank transfer QR code
+                  alt="Bank QR Code"
+                  className="w-32 h-32 object-contain"
+                />
+                <span className="mt-2 text-gray-700">Bank Transfer</span>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
