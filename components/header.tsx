@@ -10,7 +10,7 @@ export default function Header() {
           </div>
           <h1 className="text-3xl font-bold text-white">Mashal-e-Ramzan</h1>
         </div>
-        <p className="text-white text-sm font-medium hidden md:block">
+        <p className="text-white text-sm font-medium hidden sm:block">
           Spreading Light and Hope
         </p>
       </div>
