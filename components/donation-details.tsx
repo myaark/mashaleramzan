@@ -95,7 +95,7 @@ export default function DonationDetails() {
             <div className="flex flex-col items-center">
 
               <img
-                src="../public/hblqr.jpeg"
+                src="public/hblqr.jpeg"
                 alt="Bank QR Code"
                 className="w-32 h-32 object-contain"
               />
