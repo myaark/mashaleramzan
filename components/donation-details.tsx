@@ -50,8 +50,11 @@ export default function DonationDetails() {
             </div>
             <div className="bg-gradient-to-br from-blue-100 to-yellow-100 rounded-lg p-6 border-2 border-primary/30 shadow-md w-full sm:w-1/2 lg:w-auto">
               <p className="text-sm text-gray-700 font-semibold mb-2">ACCOUNT NUMBER</p>
-              <p className="text-xl font-bold text-gray-900 font-mono">PK74HABB0013537902173003</p>
+              <p className="text-xl font-bold text-gray-900 font-mono break-words">
+                PK74HABB0013537902173003
+              </p>
             </div>
+
           </div>
           <p className="mt-4 text-sm text-gray-600 text-center">Every donation is secure and transparent</p>
         </div>
