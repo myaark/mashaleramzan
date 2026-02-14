@@ -60,19 +60,15 @@ export default function DonationDetails() {
           <ul className="space-y-3 text-gray-800">
             <li className="flex items-start gap-3">
               <span className="text-primary font-bold mt-1">✓</span>
-              <span><strong>$25</strong> provides one meal for a family</span>
+              <span><strong>300 PKR</strong> provides Iftar for one person</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-primary font-bold mt-1">✓</span>
-              <span><strong>$50</strong> supplies essential utilities for a week</span>
+              <span><strong>5000 PKR</strong> supplies essential utilities for a week</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-primary font-bold mt-1">✓</span>
-              <span><strong>$100</strong> provides a comprehensive relief package</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-primary font-bold mt-1">✓</span>
-              <span><strong>$250</strong> supports a family throughout Ramzan</span>
+              <span><strong>20000</strong> provides Iftar meals for 70 - 80 Individuals</span>
             </li>
           </ul>
         </div>
