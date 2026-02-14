@@ -38,7 +38,7 @@ export default function DonationDetails() {
             <Bank className="w-8 h-8 text-primary" />
             <h3 className="text-2xl font-bold text-gray-900">Donate via Bank Transfer</h3>
           </div>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-gradient-to-br from-blue-100 to-blue-200 rounded-lg p-6 border-2 border-primary/30 shadow-md">
               <p className="text-sm text-gray-700 font-semibold mb-2">BANK NAME</p>
               <p className="text-xl font-bold text-gray-900">Habib Bank Limited (HBL)</p>
@@ -55,6 +55,7 @@ export default function DonationDetails() {
           <p className="mt-4 text-sm text-gray-600 text-center">Every donation is secure and transparent</p>
         </div>
 
+        {/* Donation Impact Section */}
         <div className="mt-12 bg-gradient-to-r from-blue-100 to-yellow-100 rounded-lg p-8 border-2 border-primary/20">
           <h4 className="text-2xl font-bold text-gray-900 mb-4">How Your Donation Helps</h4>
           <ul className="space-y-3 text-gray-800">
