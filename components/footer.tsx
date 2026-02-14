@@ -25,10 +25,10 @@ export default function Footer() {
           <div className="flex flex-col items-start md:items-end">
             <h4 className="text-lg font-semibold mb-4">Get In Touch</h4>
             <div className="flex items-center gap-4">
-              <a 
-                href="https://instagram.com" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-2 text-blue-100 hover:text-white hover:bg-white/10 px-4 py-2 rounded-lg transition-colors"
               >
                 <Instagram className="w-5 h-5" />
@@ -36,7 +36,7 @@ export default function Footer() {
               </a>
               <div className="flex items-center gap-2 text-blue-100">
                 <MapPin className="w-5 h-5" />
-                <span className="text-sm">Karachi, Pakistan</span>
+                <span className="text-sm">Islamabad, Pakistan</span>
               </div>
             </div>
           </div>
