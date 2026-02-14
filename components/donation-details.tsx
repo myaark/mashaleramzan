@@ -1,5 +1,6 @@
 import { Card } from '@/components/ui/card'
 import { Heart, Users, Target, TrendingUp, Ban as Bank } from 'lucide-react'
+import Image from 'next/image' // Import the Image component
 
 export default function DonationDetails() {
   const impacts = [
@@ -77,15 +78,17 @@ export default function DonationDetails() {
             {/* Instagram QR Code */}
             <div className="flex flex-col items-center">
               <a
-                href="https://www.instagram.com/mashaleramzan?utm_source=qr&igsh=N2wxMHRvNjJ5NjFt"
+                href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-center"
               >
-                <img
-                  src="public/qr.png" // Replace with the actual path to your Instagram QR code
+                <Image
+                  src="public/qr.png" // Path relative to the public folder
                   alt="Instagram QR Code"
-                  className="w-32 h-32 object-contain"
+                  width={128} // Set the width of the image
+                  height={128} // Set the height of the image
+                  className="object-contain"
                 />
                 <span className="mt-2 text-gray-700">Instagram</span>
               </a>
@@ -93,11 +96,12 @@ export default function DonationDetails() {
 
             {/* Bank Transfer QR Code */}
             <div className="flex flex-col items-center">
-
-              <img
-                src="public/hblqr.jpeg"
+              <Image
+                src="/images/bank-qr.png" // Path relative to the public folder
                 alt="Bank QR Code"
-                className="w-32 h-32 object-contain"
+                width={128} // Set the width of the image
+                height={128} // Set the height of the image
+                className="object-contain"
               />
               <span className="mt-2 text-gray-700">Bank Transfer</span>
 
