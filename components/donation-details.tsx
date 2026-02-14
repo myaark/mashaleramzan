@@ -36,7 +36,7 @@ export default function DonationDetails() {
         {/* Bank Details Card */}
         <div className="mb-12 bg-gradient-to-r from-blue-50 to-yellow-50 rounded-lg p-8 border-2 border-accent/30 shadow-lg hover:shadow-xl transition-shadow">
           <div className="flex items-center gap-3 mb-6">
-            <Bank className="w-8 h-8 text-primary" />
+            <Heart className="w-8 h-8 text-primary" />
             <h3 className="text-2xl font-bold text-gray-900">Donate via Bank Transfer</h3>
           </div>
           <div className="flex flex-wrap gap-6 justify-between">
