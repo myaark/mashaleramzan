@@ -59,51 +59,54 @@ export default function DonationDetails() {
         {/* Donation Impact Section */}
         <div className="mt-12 bg-gradient-to-r from-blue-100 to-yellow-100 rounded-lg p-8 border-2 border-primary/20">
           <h4 className="text-2xl font-bold text-gray-900 mb-4">How Your Donation Helps</h4>
-          <ul className="space-y-3 text-gray-800">
-            <li className="flex items-start gap-3">
-              <span className="text-primary font-bold mt-1">✓</span>
-              <span><strong>300 PKR</strong> provides Iftar for one person</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-primary font-bold mt-1">✓</span>
-              <span><strong>5000 PKR</strong> supplies essential utilities for two weeks</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-primary font-bold mt-1">✓</span>
-              <span><strong>20000 PKR</strong> Iftar Dastarkhwaan</span>
-            </li>
-          </ul>
-          {/* QR Codes Section */}
-          <div className="mt-8 flex flex-wrap gap-6 justify-center">
-            {/* Instagram QR Code */}
-            <div className="flex flex-col items-center w-full sm:w-1/2 lg:w-auto">
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-center"
-              >
+          <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
+            <ul className="space-y-3 text-gray-800 lg:w-1/2">
+              <li className="flex items-start gap-3">
+                <span className="text-primary font-bold mt-1">✓</span>
+                <span><strong>300 PKR</strong> provides Iftar for one person</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-primary font-bold mt-1">✓</span>
+                <span><strong>5000 PKR</strong> supplies essential utilities for two weeks</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-primary font-bold mt-1">✓</span>
+                <span><strong>20000 PKR</strong> Iftar Dastarkhwaan</span>
+              </li>
+            </ul>
+
+            {/* QR Codes Section */}
+            <div className="flex gap-6 justify-center lg:w-1/2">
+              {/* Instagram QR Code */}
+              <div className="flex flex-col items-center">
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-center"
+                >
+                  <Image
+                    src="/qr.png" // Path relative to the public folder
+                    alt="Instagram QR Code"
+                    width={128}
+                    height={128}
+                    className="object-contain"
+                  />
+                  <span className="mt-2 text-gray-700">Instagram</span>
+                </a>
+              </div>
+
+              {/* Bank Transfer QR Code */}
+              <div className="flex flex-col items-center">
                 <Image
-                  src="/qr.png" // Path relative to the public folder
-                  alt="Instagram QR Code"
+                  src="/hblqr.jpeg" // Path relative to the public folder
+                  alt="Bank QR Code"
                   width={128}
                   height={128}
                   className="object-contain"
                 />
-                <span className="mt-2 text-gray-700">Instagram</span>
-              </a>
-            </div>
-
-            {/* Bank Transfer QR Code */}
-            <div className="flex flex-col items-center w-full sm:w-1/2 lg:w-auto">
-              <Image
-                src="/hblqr.jpeg" // Path relative to the public folder
-                alt="Bank QR Code"
-                width={128}
-                height={128}
-                className="object-contain"
-              />
-              <span className="mt-2 text-gray-700">Bank Transfer</span>
+                <span className="mt-2 text-gray-700">Bank Transfer</span>
+              </div>
             </div>
           </div>
         </div>
