@@ -83,7 +83,7 @@ export default function DonationDetails() {
                 className="text-center"
               >
                 <img
-                  src="../public/qr.png" // Replace with the actual path to your Instagram QR code
+                  src="/public/hblqr.jpeg" // Replace with the actual path to your Instagram QR code
                   alt="Instagram QR Code"
                   className="w-32 h-32 object-contain"
                 />
