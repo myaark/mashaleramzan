@@ -84,7 +84,7 @@ export default function DonationDetails() {
                 className="text-center"
               >
                 <Image
-                  src="/public/qr.png" // Path relative to the public folder
+                  src="../public/qr.png" // Path relative to the public folder
                   alt="Instagram QR Code"
                   width={128} // Set the width of the image
                   height={128} // Set the height of the image
@@ -97,7 +97,7 @@ export default function DonationDetails() {
             {/* Bank Transfer QR Code */}
             <div className="flex flex-col items-center">
               <Image
-                src="/public/hblqr.jpeg" // Path relative to the public folder
+                src="../public/hblqr.jpeg" // Path relative to the public folder
                 alt="Bank QR Code"
                 width={128} // Set the width of the image
                 height={128} // Set the height of the image
