@@ -26,13 +26,13 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Get In Touch</h4>
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/mashaleramzan?utm_source=qr&igsh=N2wxMHRvNjJ5NjFt"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-blue-100 hover:text-white hover:bg-white/10 px-4 py-2 rounded-lg transition-colors"
               >
                 <Instagram className="w-5 h-5" />
-                <span className="font-semibold">@mashal.ramzan</span>
+                <span className="font-semibold">@mashaleramzan</span>
               </a>
               <div className="flex items-center gap-2 text-blue-100">
                 <MapPin className="w-5 h-5" />
