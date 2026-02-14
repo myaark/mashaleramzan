@@ -97,14 +97,13 @@ export default function DonationDetails() {
             {/* Bank Transfer QR Code */}
             <div className="flex flex-col items-center">
               <Image
-                src="/images/bank-qr.png" // Path relative to the public folder
+                src="public/hblqr.png" // Path relative to the public folder
                 alt="Bank QR Code"
                 width={128} // Set the width of the image
                 height={128} // Set the height of the image
                 className="object-contain"
               />
               <span className="mt-2 text-gray-700">Bank Transfer</span>
-
             </div>
           </div>
         </div>
