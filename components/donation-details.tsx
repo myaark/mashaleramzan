@@ -65,11 +65,11 @@ export default function DonationDetails() {
             </li>
             <li className="flex items-start gap-3">
               <span className="text-primary font-bold mt-1">✓</span>
-              <span><strong>5000 PKR</strong> supplies essential utilities for a week</span>
+              <span><strong>5000 PKR</strong> supplies essential utilities for two weeks</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-primary font-bold mt-1">✓</span>
-              <span><strong>20000 PKR</strong> provides Iftar meals for 70 - 80 Individuals</span>
+              <span><strong>20000 PKR</strong> Iftar Dastarkhwaan</span>
             </li>
           </ul>
         </div>
