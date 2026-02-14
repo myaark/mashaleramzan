@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="w-full bg-gradient-to-r from-primary to-blue-500 text-white">
       <div className="max-w-6xl mx-auto px-6 py-12">
         {/* Main Footer Content */}
-        <div className="grid md:grid-cols-2 gap-8 mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-8">
           {/* About */}
           <div>
             <div className="flex items-center gap-2 mb-4">
@@ -22,9 +22,9 @@ export default function Footer() {
           </div>
 
           {/* Get In Touch - Right Side */}
-          <div className="flex flex-col items-start md:items-end">
+          <div className="flex flex-col items-start sm:items-end">
             <h4 className="text-lg font-semibold mb-4">Get In Touch</h4>
-            <div className="flex items-center gap-4">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <a
                 href="https://instagram.com"
                 target="_blank"
@@ -44,6 +44,11 @@ export default function Footer() {
 
         {/* Divider */}
         <div className="border-t border-blue-400 my-8" />
+
+        {/* Footer Bottom */}
+        <div className="text-center text-sm text-blue-100">
+          &copy; {currentYear} Mashal-e-Ramzan. All rights reserved.
+        </div>
       </div>
     </footer>
   )
