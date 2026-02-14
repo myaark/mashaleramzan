@@ -23,24 +23,25 @@ export default function DonationProgress() {
               className="h-6 bg-blue-100 rounded-full"
             />
 
-            <div className="grid grid-cols-3 gap-4 pt-4">
+            {/* Make the grid responsive */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-4">
               <div className="text-center">
-                <p className="text-3xl md:text-4xl font-bold text-primary">
+                <p className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary">
                   {currentDonation.toLocaleString()} PKR
                 </p>
                 <p className="text-sm text-gray-600 mt-1">Raised</p>
               </div>
 
               <div className="text-center">
-                <p className="text-3xl md:text-4xl font-bold text-accent">
+                <p className="text-3xl sm:text-4xl md:text-5xl font-bold text-accent">
                   {percentage.toFixed(0)}%
                 </p>
                 <p className="text-sm text-gray-600 mt-1">Complete</p>
               </div>
 
               <div className="text-center">
-                <p className="text-3xl md:text-4xl font-bold text-gray-900">
-                  {goalDonation.toLocaleString()}PKR
+                <p className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900">
+                  {goalDonation.toLocaleString()} PKR
                 </p>
                 <p className="text-sm text-gray-600 mt-1">Goal</p>
               </div>
