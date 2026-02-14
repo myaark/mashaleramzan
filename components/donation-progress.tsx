@@ -4,8 +4,8 @@ import { Progress } from '@/components/ui/progress'
 import { Card } from '@/components/ui/card'
 
 export default function DonationProgress() {
-  const currentDonation = 450000
-  const goalDonation = 1200000
+  const currentDonation = 461000
+  const goalDonation = 1275000
   const percentage = (currentDonation / goalDonation) * 100
 
   return (
