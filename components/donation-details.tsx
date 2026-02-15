@@ -83,7 +83,7 @@ export default function DonationDetails() {
               {/* Instagram QR Code */}
               <div className="flex flex-col items-center">
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/mashaleramzan?utm_source=qr&igsh=N2wxMHRvNjJ5NjFt"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-center"
